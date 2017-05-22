@@ -1,0 +1,44 @@
+<body>
+  <div class="container">
+    <header>
+      <h1>Todo List</h1>
+
+      <label class="hide-completed">
+        <input type="checkbox" />
+        Ukonczone
+      </label>
+
+
+      <form class="new-task">
+        <input type="text" name="text" placeholder="Type to add new tasks" />
+      </form>
+    </header>
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <button style="font-size:24px"> <i class="fa fa-shopping-basket"></i></button>
+  <input type="checkbox" checked="{{checked}}" class="toggle-checked" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <button style="font-size:24px"><i class="fa fa-briefcase"></i></button>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <button style="font-size:24px"> <i class="fa fa-home"></i></button>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <button style="font-size:24px"> <i class="fa fa-graduation-cap"></i></button>
+
+    <ul>
+      {{#each tasks}}
+        {{> task}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
