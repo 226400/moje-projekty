@@ -1,0 +1,31 @@
+Html 5
+
+nowe nagłowki
+<header> wstepna, wprowadzajaca tresc do
+najblizszego semantycznzego poprzednika tagu lub
+jako wstep do calej podstrony.Moze byc kilka
+w article sugeruje wstep do glownej zawartosci strony, a w bodywstep do strony,
+czy ogolnie do spisu tresci. Patrzy na przodkow
+
+
+
+<nav> nawigacja, spis tresci
+Głowne elementy nawigacyjne
+
+
+<article>
+Głowny kontent strony
+mozna zagniezdzac
+
+
+<section>
+sekcja to czesc pewnego artykulu
+
+<main>
+kluczowa zawartosc podstrony-glowna sekcja. Musi byc w body a potem dopiero article
+tylko 1 raz
+
+<aside>
+marginalna zawartosc strony-reklamy z boku
+
+<footer>
