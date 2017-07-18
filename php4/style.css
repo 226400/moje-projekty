@@ -1,0 +1,62 @@
+body
+{
+  background: url(osada1.jpg);
+  background-size: contain;
+	background-color: #FF8C00;
+	color: lightgray;
+	font-size: 30px;
+	font-family: 'Inconsolata';
+	font-weight: 700;
+
+}
+
+#pojemnik
+{
+
+  /*background-color: white;*/
+  height: 100px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logowanie
+{
+  /*background: url(osada1.jpg);*/
+  /*background-color: #FF8C00;*/
+	width:800px;
+  height: 430px;
+	margin-left:-10px;
+	/*margin-right:auto;*/
+}
+
+#zdjecie
+{
+  /*background-color: black;*/
+	width:200px;
+	/*margin-left:auto;*/
+	/*margin-right:auto;*/
+}
+
+#obrazek
+{
+  /*background-color: white;*/
+  /*background: url(osada.jpg);*/
+	width:1000px;
+  height: 250px;
+	/*margin-left:auto;*/
+	/*margin-right:auto;*/
+}
+
+.submit {
+  background-color: white;
+
+    /*Krok 2: Podstawowe style*/
+    background: url(tartak.jpg);
+    background-size: contain;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgba(33, 68, 72, 0.59);
+}
+selektor { background-image: url(osada.jpg) };
